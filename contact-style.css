@@ -1,0 +1,23 @@
+main .contacts-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .contacts-container .contact-div{
+    width: 80%;
+    text-align: centers;
+}
+main .contacts-container .contact-div .contact{
+    display: flex;
+    /* background: red; */
+    text-align: center;
+    justify-content: center
+}
+main .contacts-container .contact-div .contact a{
+    color: #fff;
+    font-size: 1.35rem;
+    padding: 10px 0;
+}
+main .contacts-container .contact-div .contact a .cont-mthds{
+    color: #d0afd5;
+}
