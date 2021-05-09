@@ -1,0 +1,76 @@
+main {
+    width: 100%;
+}
+main .container{
+    width: 60%;
+}
+main .container .about-info{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+main .container .about-info .info-message{
+    flex-basis: 70%;
+    color: #c9c9c9;
+}
+main .container .about-info .more-btn{
+    width: 100%;
+    margin-top: 20px;
+}
+main .container .about-info .more-btn a{
+    background-color: #d0afd5;
+    color: #212121;
+    height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    border-radius: 20px;
+    transition: color .15s linear, background-color .25s linear;
+}
+main .container .about-info .more-btn a:hover{
+    background-color:#d0afd587;
+    color: #fafafa;
+}
+main .container .about-info .image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+main .container .about-info .image img{
+    width: 150%;
+    height: 150%;
+    position: absolute;
+    top: -40px;
+    left: -65px;
+}
+@media only screen and (max-width: 1024px){
+    main .container{
+        width: 80%;
+    }
+    main .container .about-info{
+        justify-content: space-between;
+    }
+}
+@media only screen and (max-width: 540px){
+    main .container h1{
+        text-align: left;
+    }
+    main .container{
+        width: 90%;
+    }
+    main .container .about-info{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 375px){
+    main .container{
+        top: 55%;
+    }
+}
+@media only screen and (max-width: 320px){
+    main .container{
+        top: 70%;
+    }
+}
