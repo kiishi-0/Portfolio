@@ -22,6 +22,9 @@ header nav a{
 header nav a:hover:not(.logo, .burger){
     background-color: #d0afd587;
 }
+header nav a.active{
+    box-shadow: inset 0 -5px 0 -1px #d0afd5;
+}
 .logo{
     flex-grow: 3;
     text-align: left;
@@ -95,6 +98,7 @@ main .container h1{
 main .container .info{
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 60%;
     margin: 0 auto;
