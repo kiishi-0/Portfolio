@@ -1,0 +1,97 @@
+main{
+    height: 10.5vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    align-self: flex-end;
+}
+header{
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+main h1{
+    font-size: 4rem;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+section {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:center;
+    padding: 50px 0;
+}
+section .project-div{
+    width: 80%;
+}
+section .project-div .project{
+    display: flex;
+    margin: 30px 0;
+    justify-content:space-between;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+section .project-div .project:hover{
+    background-color: #d0afd52e;
+}
+section .project-div .project .image{
+    width: 400px;
+    height: auto;
+}
+section .project-div .project .image img{
+    width: 100%;
+    height: 100%;
+}
+section .project-div .project .text{
+    width: 60%;
+    color: #fafafa;
+}
+section .project-div .project .text .arrow-image{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+}
+section .project-div .project .text .arrow-image:hover{
+    background-color:#d0afd5a1
+}
+section .project-div .project .text .arrow-image img{
+    transform: rotate(-90deg);
+    transform-origin: center;
+    width: 40px;
+}
+@media only screen and (max-width: 1024px){
+    section .project-div{
+        width: 90%;
+    }
+    section .project-div .project .text{
+        width: 53%;
+        /* background: green; */
+    }
+}
+@media only screen and (max-width: 768px){
+    section .project-div .project .text{
+        width: 100%;
+    }
+    section .project-div .project .text .arrow-image{
+        margin-top: 20px;
+        float: right;
+    }
+}
+@media only screen and (max-width: 414px){
+    main h1{
+        font-size: 3rem;
+
+    }
+}
