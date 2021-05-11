@@ -3,11 +3,16 @@ main {
 }
 main .container{
     width: 60%;
+    padding-bottom: 50px;
 }
 main .container .about-info{
     display: flex;
     width: 100%;
     justify-content: space-evenly;
+}
+main .container .about-info .text{
+    line-height: 2rem;
+    margin: 15px 0 20px 0;
 }
 main .container .about-info .info-message{
     flex-basis: 70%;

@@ -58,6 +58,13 @@ section .project-div .project .image img{
 section .project-div .project .text{
     width: 60%;
     color: #fafafa;
+    line-height: 2rem;
+}
+section .project-div .project .text h3{
+    text-decoration: underline;
+    text-decoration-thickness: 20%;
+    text-decoration-color: #d0afd5;
+
 }
 section .project-div .project .text .arrow-image{
     width: 50px;

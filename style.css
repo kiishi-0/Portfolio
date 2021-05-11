@@ -112,6 +112,11 @@ main .container .info .more-btn{
     width: 100%;
     margin-top: 20px;
 }
+main .container .info .text{
+    line-height: 2rem;
+    margin: 10px 0 20px 0;
+
+}
 main .container .info .more-btn a{
     background-color: #d0afd5;
     color: #212121;
