@@ -64,6 +64,7 @@ section .project-div .project .text h3{
     text-decoration: underline;
     text-decoration-thickness: 20%;
     text-decoration-color: #d0afd5;
+    text-transform: uppercase;
 
 }
 section .project-div .project .text .arrow-image{
