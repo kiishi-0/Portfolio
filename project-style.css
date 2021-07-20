@@ -31,7 +31,9 @@ section {
     width: 100%;
     box-sizing: border-box;
     display: flex;
+    flex-direction: column;
     justify-content:center;
+    align-items: center;
     padding: 50px 0;
 }
 section .project-div{
@@ -77,12 +79,26 @@ section .project-div .project .text .arrow-image{
     justify-content: center;
 }
 section .project-div .project .text .arrow-image:hover{
-    background-color:#d0afd5a1
+    background-color:#6c5e6ea1
 }
 section .project-div .project .text .arrow-image img{
     transform: rotate(-90deg);
     transform-origin: center;
     width: 40px;
+}
+.contact-btn a{
+    background-color: #d0afd5;
+    color: #212121;
+    height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    border-radius: 20px;
+    transition: color .15s linear, background-color .25s linear;
+}
+.contact-btn a:hover{
+    background-color:#d0afd587;
+    color: #fafafa;
 }
 @media only screen and (max-width: 1024px){
     main h1{

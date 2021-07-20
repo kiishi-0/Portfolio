@@ -34,6 +34,15 @@ header nav a.active{
 .burger{
     display: none;
 }
+.theme{
+    background: #d0afd5;
+    box-shadow: inset 1px 1px 0px 5px #212121;
+    color: #212121;
+    transition: color .15s linear, background-color .2s linear; 
+}
+.theme:hover{
+    color: #fff;
+}
 @media only screen and (max-width: 1024px){
     header nav{
         display: block;
@@ -138,12 +147,22 @@ main .info .image{
     overflow: hidden;
     position: relative;
 }
+main .info .image:hover > img{
+    width: 180%;
+    height: 180%;
+    top: -50px;
+    left: -70px;
+}
 main .info .image img{
     width: 150%;
     height: 150%;
     position: absolute;
     top: -20px;
     left: -40px;
+    transition: width 1s ease-out,
+                height 1s ease-out, 
+                top 1s ease-out, 
+                left 1s ease-out;
 }
 @media only screen and (max-width: 1024px){
     main .container{
